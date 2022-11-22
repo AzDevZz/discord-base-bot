@@ -30,6 +30,7 @@ module.exports = async bot => {
 
     let rest = await new REST({version: 10}).setToken(bot.token);
     rest.put(Routes.applicationCommands(bot.user.id), {body: commands});
+    console.log("</> [SlashCommands have been created]")
 
     
 }
