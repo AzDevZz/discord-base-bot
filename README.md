@@ -33,4 +33,5 @@
 - Credit:
 
     Az: All the bot handler
+    
     Mad_Rage: SlashCommand
